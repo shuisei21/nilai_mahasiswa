@@ -1,0 +1,99 @@
+/* ============ GLOBAL ============ */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 20px;
+}
+
+/* ============ CARD ============ */
+.card-custom {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    max-width: 500px;
+    width: 100%;
+}
+
+.card-header-custom {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.card-header-custom i {
+    font-size: 2.5rem;
+}
+
+.card-header-custom h4 {
+    margin: 10px 0 0;
+    font-weight: 600;
+}
+
+/* ============ FORM ============ */
+.form-label {
+    font-weight: 600;
+    color: #d7d8d8;
+    font-size: 0.9rem;
+}
+
+.form-control:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+/* ============ TOMBOL ============ */
+.btn-gradient {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    font-weight: 600;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+    color: white;
+    opacity: 0.9;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+}
+
+/* ============ HASIL ============ */
+.nilai-besar {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #d7d8d8  ;
+    text-align: center;
+    line-height: 1;
+}
+
+.label-kecil {
+    text-align: center;
+    color: white;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+/* ============ ERROR ============ */
+.error-box {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border-left: 6px solid #e53e3e;
+}
+
+.error-box h4 {
+    color: #e53e3e;
+    margin-bottom: 15px;
+}
